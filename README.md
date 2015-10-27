@@ -1,3 +1,5 @@
 # dotfiles
 
 vimrc
+bashrc
+gitconfig

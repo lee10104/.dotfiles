@@ -1,5 +1,4 @@
 # dotfiles
 
-vimrc
-bashrc
-gitconfig
+ln -s .dotfiles/.asdf .
+.asdf -> .dotfiles/.asdf

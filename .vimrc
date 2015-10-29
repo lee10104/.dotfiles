@@ -11,3 +11,20 @@ set hlsearch
 set noswapfile
 
 highlight Search ctermfg=016 ctermbg=226
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/vim-easy-align'
+
+call plug#end()
+
+let g:seoul256_background = 233
+
+try
+  colorscheme seoul256
+catch /^Vim\%((\a\+)\)\=:E185/
+  colorscheme elflord
+endtry
+
+set background=dark

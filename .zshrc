@@ -37,3 +37,6 @@ alias cp='cp -i'
 alias ocaml='ledit ocaml'
 alias racket='ledit racket'
 alias irc='tmux attach -t irc'
+alias hw='tmux attach -t homework'
+
+PATH=~/.opam/4.02.1/bin:$PATH

@@ -34,8 +34,6 @@ function cd() {
 
 alias mv='mv -i'
 alias cp='cp -i'
-alias ocaml='ledit ocaml'
-alias racket='ledit racket'
 alias irc='tmux attach -t irc'
 alias hw='tmux attach -t homework'
 
